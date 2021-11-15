@@ -1,92 +1,48 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <title>Pokemon Weather App</title>
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- Weather Icons -->
-    <link rel="stylesheet" href="css/weather-icons.css">
-
-    <!-- Custom -->
-    <link rel="stylesheet" href="css/custom.css">
-    <script src="js/weather.js"></script>
-
-    <!-- Google Analytics -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1T7PF44V55"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-1T7PF44V55');
-    </script>
-
-</head>
-
-<body>
-
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="#">Pokedex Weather App</a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-               
-                    </div>
-                </li>
-            </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
+<div class="container my-5">
+    <!-- Section: Intro -->
+    <section class="text-center mb-4">
+      <h4 class="mb-4">
+        <strong
+          >Astronomy Picture of the Day (<u id="intro-date"></u>)</strong
+        >
+      </h4>
+  
+      <p>
+        Each day a different image or photograph of our fascinating universe
+        is featured, along with a brief explanation written by a professional
+        astronomer.
+      </p>
+    </section>
+  
+    
+    <section class="mb-4">
+     
+      <section class="mb-4">
+      
+        <div
+          class="form-outline datepicker"
+          data-mdb-toggle-button="true"
+          data-mdb-format="yyyy-mm-dd"
+          id="date-picker"
+        >
+          <input
+            type="text"
+            class="form-control"
+            id="wrapper-date"
+            data-mdb-toggle="datepicker"
+            value=""
+          />
+          <label for="exampleDatepicker1" class="form-label"
+            >Select a date</label
+          >
         </div>
-    </nav>
-
-
-    <!-- <div class="container">
-        <center>
-            <h1 id="stationCode"></h1>
-            <h5 id="location"></h5>
-        </center>
-    </div> -->
-
-    <div class="container">
-
-        <div class="card">
-            <i class="wi wi-night-snow" id="0_icon"></i>
-            <div class="card-body">
-                <h4 class="card-title" id="0">Title</h4>
-                <p class="card-text" id="0_forecast">Text</p>
-                <p class ="card-text" id = >Pokemon of the Day</p>
-            </div>
+      </section>
+    
+  
+      <div class="row">
+        <div class="col-md-8 mb-4 mb-md-0">
+      
+          <section id="wrapper-media" class=""></section>
+       
         </div>
-
-        
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+  
